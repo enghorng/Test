@@ -48,14 +48,14 @@ ${YearlySubcriberCard}    //input[contains(@value,'yearly')]/parent::div/parent:
 Access Login Screen
     [Documentation]    [ *Created by* Enghorng _#05-Aug-2019_ ]
     ...    [ *Reviewed by* who #dd-MMM-yyyy ]
-    ${TestCaseID}    Set Variable    3ck2inuzzpni7sybjnhra7wdex3v5krj
+    Comment    ${TestCaseID}    Set Variable    3ck2inuzzpni7sybjnhra7wdex3v5krj
     Page Should Contain Element    ${RegisterPage}
     [Teardown]    Report To Testuff​ on TearDown    ${TestCaseID}    ${TEST_STATUS}
 
 Verify Back to Sign-in Button
     [Documentation]    [ *Created by* Enghorng _#05-Aug-2019_ ]
     ...    [ *Reviewed by* who #dd-MMM-yyyy ]
-    ${TestCaseID}    Set Variable    pzvkmrgqg7qe5lhbkagddrb2kbzbbr4c
+    Comment    ${TestCaseID}    Set Variable    pzvkmrgqg7qe5lhbkagddrb2kbzbbr4c
     Click Back Sign In Link
     Page Should Contain Element    ${SignInPage}
     [Teardown]    Report To Testuff​ on TearDown    ${TestCaseID}    ${TEST_STATUS}
@@ -63,7 +63,7 @@ Verify Back to Sign-in Button
 Verify Create Account Screen
     [Documentation]    [ *Created by* Enghorng _#05-Aug-2019_ ]
     ...    [ *Reviewed by* who #dd-MMM-yyyy ]
-    ${TestCaseID}    Set Variable    6l4jzhlcsezgy3wr4jgbmd2xkavbwriw
+    Comment    ${TestCaseID}    Set Variable    6l4jzhlcsezgy3wr4jgbmd2xkavbwriw
     Verify Crosswired Logo
     Verify Text on Screen
     Verify Button Text

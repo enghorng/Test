@@ -8,7 +8,7 @@ ${OrganizationUrl}    https://uat-demo-cwex.crosswired.com
 
 *** Keywords ***
 Access To Team Site
-    [Arguments]    ${Role}=${EMPTY}
+    [Arguments]    ${Role}=orgAdmin
     Sign In to CW    ${Role}
     Click on Organization Setting
 

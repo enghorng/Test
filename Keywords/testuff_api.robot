@@ -92,5 +92,5 @@ Upload Any File To Testuff
 Get Lab Name
     ${LabName}=    Get Current Date
     ${LabName}=    Get Substring    ${LabName}    \    10
-    ${LabName1}=    Catenate    CW AU On    ${LabName}
-    [Return]    ${LabName1}
+    ${LabName}=    Catenate    AU On    ${LabName}
+    [Return]    ${LabName}

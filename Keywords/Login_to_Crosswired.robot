@@ -33,7 +33,7 @@ Open CW Url
     Maximize Browser Window
 
 Sign In to CW
-    [Arguments]    ${Role}=admin
+    [Arguments]    ${Role}=learningAdmin
     Open CW Url
     Click Ok Button
     Click Sign In to Username Pwd
